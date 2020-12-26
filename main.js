@@ -9,5 +9,5 @@
 (() => {
 	const [, id] = /\/contests\/[^/]+\/editorial\/([0-9]+)$/.exec(location.href);
 	const e = document.querySelector("h2");
-	e.textContent = `[${id}] ${e.textContent}`;
+	e.insertBefore(document.createTextNode(`[${id}] `), e.firstChild);
 })();
