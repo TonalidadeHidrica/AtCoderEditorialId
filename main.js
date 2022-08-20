@@ -3,8 +3,7 @@
 // @namespace https://github.com/TonalidadeHidrica/
 // @version 0.1
 // @description Show Editorial ID on AtCoder
-// @match https://atcoder.jp/contests/*/editorial
-// @match https://atcoder.jp/contests/*/editorial/*
+// @match https://atcoder.jp/contests/*/editorial*
 // ==/UserScript==
 
 (() => {
