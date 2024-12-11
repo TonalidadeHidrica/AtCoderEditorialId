@@ -8,4 +8,4 @@ Shows editorial ID in AtCoder.
   - 「スクリプトによるローカルファイルへのアクセスを許可する」が Externals (@require and @resource) となっていることを確認する
 - 新規スクリプトを生成
   - 生成されたコードのヘッダを `main.js` のヘッダで置き換え
-  - ヘッダに `@require: /clone/destination/main.js` を追加
+  - ヘッダに `@require /clone/destination/main.js` を追加
